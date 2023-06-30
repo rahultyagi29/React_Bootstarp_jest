@@ -1,0 +1,91 @@
+.training_block {padding:50px 0;}
+.training_container .card {box-shadow: 0 3px 6px rgba(25,32,36,0.16),0 -1px 4px rgba(25,32,36,0.04);border-color:#eaeaea;border-radius:5px;margin-bottom:25px;transition:0.2s !important;}
+.training_container .card:hover {margin-top:-3px;margin-bottom:3px;transition:0.2s !important;box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.1) !important;}
+.training_container .card_head {height:75px;position:relative;border-radius:5px 5px 0px 0px;}
+.training_container .card_head .card_icon {width:85px;height:85px;border:1px solid #fff;padding:12px;border-radius:50px;background:#fff;box-shadow:0 2px 6px rgba(0, 0, 0, 0.15);position:absolute;top:30px;left:20px;}
+.training_container .card_head .card_icon img {width:100%;height:100%;object-fit:contain;}
+.training_container .card_body {padding:15px;padding-top:50px;min-height:274px;}
+.training_container .card_body h3 {font-size:20px;font-weight:bold;}
+.training_container .card_body ul {padding:0;margin:0;list-style:none;display:flex;flex-wrap:wrap;min-height:125px;}
+.training_container .card_body li {width:50%;font-size:12px;font-weight:500;display:flex;align-items:center;gap:4px;}
+.training_container .card_body li::before {font-family:'Fontawesome';content:'\f0da';font-size:11px;margin-right:2px;}
+.training_container .card_body .joinnow_btn .joinnow {margin:0;font-size:14px;font-weight:600;margin-top:10px;padding:10px 30px;border:0;
+background:#00aeff;transition:.3s;}
+.training_container .card_body .joinnow_btn .joinnow:hover {background: #0987c2;transition:.3s;}
+.training_container .uiux .card_head {background:#68afec;}
+.training_container .frontend .card_head {background:#4a6cff;}
+.training_container .backend .card_head {background:#ffdb51;}
+.training_container .web_devlpment .card_head {background:#00769d;}
+.training_container .Branding .card_head {background:#001e36;}
+.training_container .dgtl_mrktg .card_head {background:#de5a75;}
+.web_devlpment .card_body li {width:100%;}
+/* ================= popup Form section=============== */
+.training_form .modal-dialog {background:#fff;border-radius:7px;}
+.training_form .modal-content {border:0;border-radius:0;}
+.training_form .modal-dialog {--bs-modal-width:1250px;}
+.training_form .modal-header .modal-title {font-weight:bold;}
+.training_form .form_block {border-top: 10px solid #00aeff;padding:0;}
+.training_form .form_body {padding:20px;}
+
+.training_form .form_block .form_field {float:left;width:100%;margin-bottom:20px;}
+.training_form .form_block .form_field .form-label {font-weight:600;font-size:13px;}
+.training_form .form_block .form_field .form-control {font-size:13px;border-radius:3px;padding:10px;resize:none;border-color:#d8d4d4;}
+.training_form .form_block .form_field .form-control:focus {box-shadow:none;}
+.training_form .form_block .form_btn .btn {padding:10px 30px;border:0;background:#00aeff;transition:.3s;font-size:14px;font-weight:600;}
+.training_form .form_block .form_btn .btn:hover {background:#0987c2;transition:.3s;}
+.training_form .form_block .form-check-label {font-size:13px;}
+.training_form .btn-close {font-size:10px;padding:5px;border:1px solid #000;border-radius:3px;}
+.training_form .btn-close:focus {box-shadow:none;}
+/* popup-left */
+.popup_left {background-image:url("../img/training_bg4.jpg");background-position:center;background-size:cover;padding:20px;display:flex;align-items: center;}
+.popup_left::before {position:absolute;top:0px;right:0px;width:50%;height:100%;content:'';background:rgba(3, 65, 86, 0.8);}
+.popup_left .section-title {padding:0;}
+.popup_left .section-title h2,.popup_left .section-title h3,.popup_left .section-title p,.popup_left .section-title .award_logo {position:relative;color:#fff;}
+.popup_left .section-title .award_logo {margin-top:25px;}
+/* ===================== Training Form Page start ===================== */
+.benefits_perks .card {box-shadow:none;min-height: 245px;}
+.benefits_perks .card:hover {margin:0;}
+.benefits_perks .card_head {height:auto;}
+.benefits_perks .card_head .card_icon {margin:15px auto;position:initial !important;width:75px;height:75px;}
+.benefits_perks .card_body {padding-top:15px;min-height:auto;text-align:center;font-size:14px;line-height:25px;}
+.benefits_perks .card_body p {margin:0;}
+/* .training_form_block {background:url("../img/training_bg4.jpg");}
+.training_form_block::before {background:rgba(3,65,86,.8);background-size:cover;background-repeat:no-repeat;} */
+.training_form_block .form_block {position:relative; border:0;color:#fff !important;padding:20px;background:rgba(0, 0, 0, 0.4);border-radius: 5px;}
+.training_form_block .section-title {padding:0;}
+.training_form_block .section-title h2 {font-size:28px !important;}
+.section-title h3 {font-size:24px !important;}
+.training_form_block .form_info {display:flex;align-items:center;}
+.awards {background-size:cover;background-position:center;}
+
+
+
+
+
+
+
+/* =========== Media Query ============= */
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+.training_container .card_body li {width:100%;}
+.training_container .col-4 {width:100%;}
+.training_form {padding:0px 15px !important;}
+.popup_left::before {height:46%;width:100%;bottom:0px;top:auto;}
+
+}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width: 1024px)
+{
+.training_container .col-4 {width:50%;}
+.training_form {padding:0px 15px !important;}
+.training_form .form_block .form_field .form-control {font-size:12px;}
+
+}
+
+
+
+
+
+
+
