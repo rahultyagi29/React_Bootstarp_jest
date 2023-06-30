@@ -1,18 +1,17 @@
 import React from "react";
-import Header from "./Components/Header.jsx";
-import Footer from "./Components/Footer.jsx";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from "./Pages/Home.jsx";
+import About from "./Pages/About.jsx";
 
 function App() {
   return (
-    <React.Fragment>
-      <Header />
-      <Footer />
-
-
-
-    </React.Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 
 export default App;

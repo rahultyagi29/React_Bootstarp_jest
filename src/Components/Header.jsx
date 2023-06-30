@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Navbar_dd from './Navbar_dd';
+import NavbarDD from './NavbarDD';
 
 function Header() {
     return (
@@ -12,7 +12,7 @@ function Header() {
                 <nav id="navbar" className="navbar">
                     <ul>
                     <Navbar class="active" Pagename="Home" />
-                    <Navbar_dd PageLink="" listclass="dropdown" Pagename="Services" dropdown="Web Development" />
+                    <NavbarDD PageLink="" listclass="dropdown" Pagename="Services" dropdown="Web Development" />
                     <Navbar PageLink="" Pagename="About Us" />
                     <Navbar PageLink="" Pagename="Portfolio" />
                     <Navbar PageLink="" Pagename="Our Product" />

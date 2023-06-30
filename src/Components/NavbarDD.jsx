@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 
-function Navbar_dd(props) {
+function NavbarDD(props) {
     return (
     
                         <li className={props.listclass}>
@@ -22,4 +22,4 @@ function Navbar_dd(props) {
     );
 }
 
-export default Navbar_dd;
+export default NavbarDD;
