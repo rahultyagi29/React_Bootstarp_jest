@@ -12,23 +12,23 @@ function Footer() {
                             <div className="col-lg-3 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Portfolio</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Our Products</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Careers</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Home</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">About us</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Portfolio</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Our Products</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Careers</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-links">
                                 <h4>Our Services</h4>
                                 <ul>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Creative Designs</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Mobile Development</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Quality Testing</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">E-commerce Solution</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Web Development</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Creative Designs</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Mobile Development</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Digital Marketing</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">Quality Testing</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="">E-commerce Solution</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-contact">
@@ -45,9 +45,9 @@ function Footer() {
                                     developers has been providing custom design and application development to clients in USA, UK, Australia
                                     and around the world. </p>
                                 <div className="social-links mt-3">
-                                    <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-                                    <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                                    <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                                    <a href="" className="twitter"><i className="bi bi-twitter"></i></a>
+                                    <a href="" className="facebook"><i className="bi bi-facebook"></i></a>
+                                    <a href="" className="linkedin"><i className="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                         </div>
