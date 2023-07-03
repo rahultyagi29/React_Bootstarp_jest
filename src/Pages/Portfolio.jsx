@@ -3,7 +3,6 @@ import Header from "../Components/Header.jsx";
 import Portfolio_ctg_card from "../Components/Portfolio_ctg_card.jsx";
 import Heading_1 from "../Components/Heading_1.jsx";
 import Heading_4 from "../Components/Heading_4.jsx";
-
 import Footer from "../Components/Footer.jsx";
 
 function Home() {
