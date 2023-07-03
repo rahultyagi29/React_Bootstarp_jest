@@ -2010,6 +2010,24 @@ box-shadow:0px 0px 0px 3px #0987c2 !important;background-color:#0987c2;}
 .project_features .feature_card li {position:relative;font-size:13px;margin-bottom:10px;}
 .project_features .feature_card li strong {font-size:15px;display:flex;gap:10px;margin-bottom: 5px;margin-left:-26px;}
 .project_features .feature_card li strong::before {content:'\f192';font-family:'Fontawesome';color:#017fa8;}
+/* portfolio pages */
+.page_title {font-size:42px;display:inline-block;color:#fff;font-weight:bold;background:#43b8ed;border:3px solid #fff;padding:10px 30px;box-shadow:0px 0px 0px 3px #43b8ed !important;text-transform:uppercase;margin-bottom:20px;}
+.portfolio_banner {padding:60px 0px;background-image:url("../img/portfolio_bg.jpg");}
+.portfolio_banner h2 {text-align:center;font-weight:800;background-position: center center;background-repeat:no-repeat;background-size:cover;font-size:35px;margin-bottom:30px;color:#fff;}
+.project_banner {width:850px;margin:0 auto;}
+.project_banner img {width:100%;}
+.portfolio .content {text-align: left;}
+.portfolio .content h2 {font-weight:800;margin-top:20%;}
+.portfolio {padding:50px 0px 0 !important;background-repeat:no-repeat;background-position:right;padding:30px 0px;color:#fff;text-align:center;background-attachment:fixed;background-size:cover;margin-bottom:50px;}
+.portfolio_sec1 {background-image: url(../img/bg-img2.jpeg);}
+.portfolio_sec2 {background-image: url(../img/bg-img4.jpeg);}
+.portfolio_sec3 {background-image: url(../img/bg-img3.jpeg);}
+.portfolio_sec4 {background-image: url(../img/bg-img.jpeg);}
+.portfolio_sec5 {background-image: url(../img/bg-img5.jpeg);}
+
+
+
+
 
 /***** media queries ******/
 

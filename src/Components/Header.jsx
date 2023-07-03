@@ -15,7 +15,7 @@ function Header() {
                         <Navbar class="active" PageLink="/" Pagename="Home" />
                         <Navbar PageLink="/about" Pagename="About Us" />
                         <NavbarDD PageLink="" listclass="dropdown" Pagename="Services" dropdown="Web Development" />
-                        <Navbar PageLink="" Pagename="Portfolio" />
+                        <Navbar PageLink="/portfolio" Pagename="Portfolio" />
                         <Navbar PageLink="" Pagename="Our Product" />
                         <Navbar PageLink="" Pagename="Careers" />
                         <Navbar listclass="headerContactCTA" PageLink="" Pagename="Contact" />
