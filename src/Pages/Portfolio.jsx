@@ -5,6 +5,8 @@ import Heading_1 from "../Components/Heading_1.jsx";
 import Heading_4 from "../Components/Heading_4.jsx";
 import Footer from "../Components/Footer.jsx";
 
+import Footer from "../Components/Footer.jsx";
+
 function Home() {
     return (
         <React.Fragment>
