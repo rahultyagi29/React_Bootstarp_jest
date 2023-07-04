@@ -18,7 +18,7 @@ function Header() {
                         <Navbar PageLink="/portfolio" Pagename="Portfolio" />
                         <Navbar PageLink="" Pagename="Our Product" />
                         <Navbar PageLink="" Pagename="Careers" />
-                        <Navbar listclass="headerContactCTA" PageLink="" Pagename="Contact" />
+                        <Navbar listclass="headerContactCTA" PageLink="/contact" Pagename="Contact" />
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
