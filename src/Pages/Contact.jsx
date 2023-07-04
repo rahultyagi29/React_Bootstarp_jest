@@ -1,9 +1,7 @@
 import React from "react";
 import Header from "../Components/Header.jsx";
 import Footer from "../Components/Footer.jsx";
-import Page_banner from "../Components/Page_banner.jsx"
 import Contactmap from "../Components/Contact-map.jsx";
-import Heading_2 from "../Components/Heading_2.jsx";
 import Heading_3 from "../Components/Heading_3.jsx";
 import Paragraph from "../Components/Paragraph.jsx";
 
@@ -13,7 +11,7 @@ function Contact() {
         <React.Fragment>
             <Header />
             <main id="main">
-                <Page_banner Banner_title="Contact Us" Banner_img="assets/img/contect_banner.jpg" />
+                
                 <section id="contact" className="contact">
                     <div className="container">
                         <div className="row">
@@ -46,6 +44,7 @@ function Contact() {
                             </div>
                             <div className="col-lg-6">
                                 <form method="post" role="form" className="php-email-form">
+                                    <Heading_3 className="form-title" h3="Reach Out to Us By Filling this form!" />
                                     <div className="row">
                                         <div className="col-md-6 form-group">
                                             <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
