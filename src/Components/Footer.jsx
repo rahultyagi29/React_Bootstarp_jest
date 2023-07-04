@@ -52,7 +52,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="copyright">© Copyright 2021 | Rackron Technologies Pvt. Ltd. All Rights Reseverd </div>
+                <div className="copyright">© Copyright 2023 | Rackron Technologies Pvt. Ltd. All Rights Reseverd </div>
             </div>
         </footer>
     );
