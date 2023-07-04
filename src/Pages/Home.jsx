@@ -156,12 +156,7 @@ function Home() {
             </div>
           </div>
         </section>
-
-
-
       </main>
-
-
 
       <Footer />
     </React.Fragment>

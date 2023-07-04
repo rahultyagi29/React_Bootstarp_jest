@@ -14,10 +14,10 @@ function Header() {
                     <ul>
                         <Navbar class="active" PageLink="/" Pagename="Home" />
                         <Navbar PageLink="/about" Pagename="About Us" />
-                        <NavbarDD PageLink="" listclass="dropdown" Pagename="Services" dropdown="Web Development" />
+                        <NavbarDD listclass="dropdown" id="" Pagename="Services" dropdown="Web Development" />
                         <Navbar PageLink="/portfolio" Pagename="Portfolio" />
-                        <Navbar PageLink="" Pagename="Our Product" />
-                        <Navbar PageLink="" Pagename="Careers" />
+                        <Navbar PageLink="/our-products" Pagename="Our Product" />
+                        <Navbar PageLink="/careers" Pagename="Careers" />
                         <Navbar listclass="headerContactCTA" PageLink="/contact" Pagename="Contact" />
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
